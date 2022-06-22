@@ -31,12 +31,12 @@ Banalmente, rispettati tutti i prerequisiti basterà avviare Unreal engine e apr
 1. Creare i personaggi sulla seguente SaaS: https://metahuman.unrealengine.com/ 
 hint: si avrà la possibilità di scegliere tra due editor in quando siamo in una fase di transizioneda UE4 e UE5, mantenere una certa coerenza tra le versioni durante l'esecuzione del progetto che si vuole creare/modificare
 
-2. Importarli tramite QuixelBridge, esso semplifica di molto la fase di import, basta scegliere il personaggio da importare e la qualità di import: Low (Fullhd), Medium (2k), Highest (8k) 
-![image](https://user-images.githubusercontent.com/78663960/175156813-b4401a04-b31c-40fe-878e-d09198321639.png)
+2. Importarli tramite QuixelBridge, esso semplifica di molto la fase di import, basta scegliere il personaggio da importare e la qualità: low fullhd, medium 2k e highest 8k
 
-## Animazione metahumans <a name="Animazione_metahumans"></a>: : 
 
-### Creazione IKRig per la creazione di catene cinematiche inverse <a name="IKRig"></a>: : 
+## Animazione metahumans <a name="Animazione_metahumans"></a> : 
+
+### Creazione IKRig per la creazione di catene cinematiche inverse <a name="IKRig"></a> : 
 
 L’animazione dei meta – human avviene tramite i **control rig**.
 Al fine di effettuare il retarget delle azioni, a differenza della versione 4 dove si provedeva attraverso il Retarget resources (Documentazione, che sfortunatamente è riferita alla versione di unreal 4 https://docs.metahuman.unrealengine.com/en-US/MetahumansUnrealEngine/MetaHumanRetargetAnimations/)
