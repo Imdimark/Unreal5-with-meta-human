@@ -7,9 +7,6 @@
 5. [Creazione IKRig per la creazione di catene cinematiche inverse](#IKRig)
 6. [IKRretargeter](#IKRretargeter)
 7. [Animation blueprint](#Animation_blueprint)
-8. [] (#)
-9. [] (#)
-10.[] (#)
 11. [Analisi performances](#Analisi_performances)
 
 
@@ -72,7 +69,7 @@ Noi scegliamo la seconda, andiamo sulla blueprint action del characters da cui p
 
 ![image](https://user-images.githubusercontent.com/78663960/175164790-7a038b01-8fd4-4dcb-bf1e-9aa5bb5ec65e.png)
 
-### Animation blueprint <a name="Animation_blueprint"></a>: : 
+### Animation blueprint <a name="Animation_blueprint"></a>: 
 Una volta che sono state create le azioni, rimappate, dentro una cartella creata precedentemente, bisogna creare la nuova animation blueprint.
 
 ![image](https://user-images.githubusercontent.com/78663960/175164986-e4a57320-aba6-4408-99bb-cd4330f04383.png)
@@ -90,8 +87,7 @@ La combo deve essere scheletro + blueprint action class +  skin. Vanno poi impor
 
 **Trubleshooting hints**:
 Potrebbe capitare che uno dei componenti non si adatti allo scheletro attuale,questo può avvenire nel caso in cui siano associati altri componenti come quello della physic. In questo caso il processo è
-Seleziona la skeletal mesh  aprilo nel content browser tasto destro sulla mesh  assegna skeleton e scegliere quello adeguato
-
+Seleziona la skeletal mesh --> aprilo nel content browser -->tasto destro sulla mesh --> assegna skeleton e scegliere quello adeguato
 
 ## Analisi performances <a name="Analisi_performances"></a> :
 [ppt](https://github.com/Imdimark/Unreal5-with-meta-human/files/8961598/Virtual.reality.for.robotics.pptx)
